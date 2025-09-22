@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confession Cute 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts"></div>
+
+  <div class="container">
+    <h1 class="intro">Ada pesan buat kamu 💌</h1>
+
+    <!-- Amplop -->
+    <div class="envelope" id="envelope">
+      <div class="top"></div>
+      <div class="bottom"></div>
+      <div class="seal">💖</div>
+      <div class="letter"></div>
+    </div>
+
+    <!-- Tombol -->
+    <button id="openBtn" class="btn-open">Buka Amplop ✨</button>
+
+    <!-- Pesan -->
+    <div class="message hidden" id="messageBox">
+      <p id="typing"></p>
+    </div>
+  </div>
+
+  <!-- Ending -->
+  <div class="ending" id="ending">
+    <div class="big-love">❤️</div>
+    <h1 class="love-text" id="loveText"></h1>
+  </div>
+
+  <!-- Musik background -->
+  <audio id="bgMusic" loop>
+    <source src="hindia.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
